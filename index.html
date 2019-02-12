@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Hangman_Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript" src="Assets/javascript/game.js"></script>
+
+
+</head>
+<body onload="startUp()">
+<div class="wrapper">
+
+<h1>Hangman</h1>
+	<h2>Rap Star</h2>
+
+<div class="jumbotron">
+	<h1 class="display-4">Guessing Game!</h1>
+	<p class="lead">Spell and guess a famous rap star from the 90's</p>
+	<hr class="my-4">
+</div>
+</div>
+
+<h1>Guess a letter</h1>
+<input id="letter" type="text">
+<input type="button" value="letter" onClick="Letter()"/>
+<p id="answer"></p>
+<p id="counter"></p>
+<p id="stat"></p>
+</body>
+</html>
